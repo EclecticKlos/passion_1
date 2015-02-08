@@ -1,0 +1,10 @@
+<h1> Hey-o <%= @user.username %>!</h1>
+<h2> Your skillz! </h2>
+
+  skill cnt: <%= @skills.count %>
+  <% @skills.each do |skill| %>
+    <p><%= skill.skill_name %></p>
+  <% end %>
+
+
+<p><a href="<%= session[:user_id] %>/skill_select">Edit skills</a></p>
