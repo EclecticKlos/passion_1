@@ -8,3 +8,9 @@ end
 10.times do
   Skill.create(skill_name: Faker::Lorem.sentence)
 end
+
+Skill.create(skill_name: "Algorithms")
+Skill.create(skill_name: "OOP Ruby")
+Skill.create(skill_name: "MVC")
+Skill.create(skill_name: "Sinatra")
+Skill.create(skill_name: "OOP JavaScript")
