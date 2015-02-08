@@ -37,16 +37,16 @@ Polish, add on additional features? -->
 ---------------P1 USER STORIES
 (MVP)
 ----AUTHENTICATION
-As a user I want to be able to login with my github username.
-As a user I want to login with my password.
+DONE As a user I want to be able to login with my github username.
+DONE As a user I want to login with my password.
 As a user I want to change my password.
 
 ----SKILLS
-As a user I want to be able to select my phase. (MVP2)
 As a user I want to be able to select my skills(.)
       for each phase completed.(MVP2)
 As a user I want to edit my skills.
 As a user I want to remove my skills.
+As a user I want to be able to select my phase. (MVP2)
 
 ----AUTHORIZATION
 As a user I only get access to my skills.
