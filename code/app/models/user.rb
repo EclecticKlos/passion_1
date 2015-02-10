@@ -1,8 +1,8 @@
 require 'bcrypt'
 
-
 class User < ActiveRecord::Base
-  has_many  :skills
+  has_many :user_skills
+  has_many :skills, through: :user_skills
 
   # users.password_hash in the database is a :string
   include BCrypt

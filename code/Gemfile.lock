@@ -86,7 +86,7 @@ DEPENDENCIES
   faker
   pg
   rack-test
-  rake
+  rake (= 10.3.2)
   rspec
   shotgun
   shoulda-matchers
